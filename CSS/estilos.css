@@ -311,7 +311,7 @@ body{
 /*Testimony*/
 
 .testimony{
-    background-color: #fbb27d;
+    background-color: #f9e29e69;
 }
 
 .testimony__container{
@@ -360,7 +360,7 @@ body{
 }
 
 .testimony__course{
-    background-color: #cb5f00;
+    background-color: #f69036;
     color: #fff;
     display: inline-block;
     padding: 5px;
