@@ -239,8 +239,6 @@ body{
     align-items: center;
 }
 
-/*Colores a modificar*/
-
 .price__elements{
     background-color: #e5e4f7;
     text-align: center;
@@ -549,6 +547,32 @@ body{
     width: 30px;
 }
 
+.nav__links:hover {
+    color: #0329cf;
+}
+
+.contact-info {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+}
+
+.nav__links:hover ~ .contact-info {
+    opacity: 1;
+}
+
+#p_contacto{
+    color: #000;
+}
+
+
 @media (max-width: 800px){
     .nav__menu{
         display: block;
@@ -678,7 +702,7 @@ body{
 
 }
 
-@media (max-width:600px){
+/*@media (max-width:600px){
 
     .hero__title{
         font-size: 2rem;
@@ -740,7 +764,6 @@ body{
     }
 
     .footer__title{
-        /*justify-self: start;*/
         margin-top: 40px;
         justify-self: left;
     }
@@ -781,4 +804,4 @@ body{
 
 
 
-}
+}*/
