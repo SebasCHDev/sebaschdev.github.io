@@ -53,7 +53,29 @@ body{
 
 .nav__title{
     font-weight: 100%;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+    75% {
+        font-size: 250%;
+        margin-left: 25%;
+        width: 150%;
+      }
+
+  }
 
 .nav__link{
     margin-left: auto;
