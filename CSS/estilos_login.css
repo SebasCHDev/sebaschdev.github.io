@@ -45,7 +45,6 @@ main{
     transition: all 500ms;
 }
 
-
 .caja__trasera div p,
 .caja__trasera button{
     margin-top: 30px;
@@ -130,7 +129,6 @@ main{
     outline: none;
 }
 
-
 .formulario__login{
     opacity: 1;
     display: block;
@@ -138,8 +136,6 @@ main{
 .formulario__register{
     display: none;
 }
-
-
 
 @media screen and (max-width: 850px){
 

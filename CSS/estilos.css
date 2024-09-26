@@ -114,7 +114,7 @@ body{
 
 .hero__container{
     max-width: 1000px;
-    --padding-container:0;
+    --padding-container: 0;
     display: grid;
     grid-auto-rows: max-content;
     align-content: center;
@@ -498,12 +498,12 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #fff;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     height: 300px;
 }
 
 .nav__footer{
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     display: grid;
     gap: 1em;
     grid-auto-flow: row;
